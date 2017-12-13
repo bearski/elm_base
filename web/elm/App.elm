@@ -22,7 +22,7 @@ view person =
       [ li [] [ text "Sample Todo Item"]
       ]
     , input
-      [type' "text"
+      [type_ "text"
       , placeholder "New Todo Item"
       ] []
     , button [] [ text "Add Item" ]
